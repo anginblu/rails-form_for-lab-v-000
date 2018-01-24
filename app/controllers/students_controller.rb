@@ -15,7 +15,8 @@ class StudentsController < ApplicationController
 
   def create
     @student = Student.create(post_params(:first_name, :last_name))
-  end
+    redirect_to student_path(@student)
+end
 
   def edit
     @student = Student.find(params[:id])
