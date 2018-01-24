@@ -13,7 +13,7 @@ class SchoolClassesController< ApplicationController
   end
 
   def edit
-    @school_class =
+    @school_class = 
   end
 
   def update
