@@ -8,6 +8,10 @@ class SchoolClassesController< ApplicationController
     @school_classes = SchoolClass.all
   end
 
+  def new
+
+  end
+
   def create
     @school_class = SchoolClass.create(post_params(:title, :room_number))
     redirect_to school_class_path(@school_class)
