@@ -411,6 +411,7 @@ Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  begin transaction
 Started GET "/students/new" for 127.0.0.1 at 2018-01-24 06:43:43 +0000
 Processing by StudentsController#new as HTML
+<<<<<<< HEAD
 Completed 500 Internal Server Error in 51ms (ActiveRecord: 0.6ms)
   [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
   [1m[35m (0.2ms)[0m  begin transaction
@@ -473,3 +474,5 @@ Processing by StudentsController#show as HTML
   Parameters: {"id"=>"1"}
 Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
   [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+=======
+>>>>>>> 207dc9f6193d71596a71bc845d0bbd81896bd241
